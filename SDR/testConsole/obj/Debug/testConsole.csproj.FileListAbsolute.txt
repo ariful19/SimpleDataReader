@@ -1,0 +1,8 @@
+D:\Lufira\Repos\SDR\SDR\testConsole\bin\Debug\testConsole.exe.config
+D:\Lufira\Repos\SDR\SDR\testConsole\bin\Debug\testConsole.exe
+D:\Lufira\Repos\SDR\SDR\testConsole\bin\Debug\testConsole.pdb
+D:\Lufira\Repos\SDR\SDR\testConsole\bin\Debug\SDR.dll
+D:\Lufira\Repos\SDR\SDR\testConsole\bin\Debug\SDR.pdb
+D:\Lufira\Repos\SDR\SDR\testConsole\obj\Debug\testConsole.csprojResolveAssemblyReference.cache
+D:\Lufira\Repos\SDR\SDR\testConsole\obj\Debug\testConsole.exe
+D:\Lufira\Repos\SDR\SDR\testConsole\obj\Debug\testConsole.pdb

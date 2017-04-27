@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26228.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDR", "SDR\SDR.csproj", "{35B598F9-4DEF-47F8-89D2-FDCC26C27AC5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SDRTest", "SDRTest\SDRTest.csproj", "{2606734C-71A8-4AFA-A295-484190E40DC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testConsole", "testConsole\testConsole.csproj", "{D20CC63E-C407-4225-AA8A-F46533A7613A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{35B598F9-4DEF-47F8-89D2-FDCC26C27AC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B598F9-4DEF-47F8-89D2-FDCC26C27AC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B598F9-4DEF-47F8-89D2-FDCC26C27AC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2606734C-71A8-4AFA-A295-484190E40DC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2606734C-71A8-4AFA-A295-484190E40DC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2606734C-71A8-4AFA-A295-484190E40DC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2606734C-71A8-4AFA-A295-484190E40DC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D20CC63E-C407-4225-AA8A-F46533A7613A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20CC63E-C407-4225-AA8A-F46533A7613A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20CC63E-C407-4225-AA8A-F46533A7613A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20CC63E-C407-4225-AA8A-F46533A7613A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

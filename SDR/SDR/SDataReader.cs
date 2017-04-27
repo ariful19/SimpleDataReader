@@ -9,7 +9,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace SDR
+namespace SDR.SqlServer
 {
     public class SDataReader : IDisposable, IEnumerable<Dictionary<string, object>>
     {
@@ -152,5 +152,30 @@ namespace SDR
                 return hasrow;
             }
         }
+
+        public IEnumerable<T> AutoMap<T>()
+        {
+            using (SqlDataReader rdr = cmd.ExecuteReader())
+            {
+                var cnt = rdr.FieldCount;
+                var t = typeof(T);
+                var fieldliest = Enumerable.Range(0, rdr.FieldCount)
+                    .Select(o => rdr.GetName(o)).ToList();
+                var proplist = t.GetProperties()
+                    .Where(o => fieldliest.Any(f => f.ToLower() == o.Name.ToLower()))
+                    .Select(o => new { Property = o, fieldIndex = fieldliest.IndexOf(o.Name) }).ToList();
+                while (rdr.Read())
+                {
+                    var x = Activator.CreateInstance(t);
+                    foreach (var item in proplist)
+                    {
+                        item.Property.SetValue(x, rdr.GetValue(item.fieldIndex));
+                    }
+                    yield return (T)x;
+                }
+
+            }
+        }
     }
 }
+

@@ -1,0 +1,5 @@
+D:\Lufira\Repos\SDR\SDR\SDR\bin\Debug\SDR.dll
+D:\Lufira\Repos\SDR\SDR\SDR\bin\Debug\SDR.pdb
+D:\Lufira\Repos\SDR\SDR\SDR\obj\Debug\SDR.csprojResolveAssemblyReference.cache
+D:\Lufira\Repos\SDR\SDR\SDR\obj\Debug\SDR.dll
+D:\Lufira\Repos\SDR\SDR\SDR\obj\Debug\SDR.pdb

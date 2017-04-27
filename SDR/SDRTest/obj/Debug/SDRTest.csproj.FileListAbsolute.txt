@@ -1,0 +1,14 @@
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\SDRTest.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\SDRTest.pdb
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\SDR.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\SDR.pdb
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\Lufira\Repos\SDR\SDR\SDRTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\Lufira\Repos\SDR\SDR\SDRTest\obj\Debug\SDRTest.csprojResolveAssemblyReference.cache
+D:\Lufira\Repos\SDR\SDR\SDRTest\obj\Debug\SDRTest.dll
+D:\Lufira\Repos\SDR\SDR\SDRTest\obj\Debug\SDRTest.pdb
